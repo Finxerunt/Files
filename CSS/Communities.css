@@ -602,7 +602,7 @@ section {
     justify-content: center;
     position: absolute;
     overflow: hidden;
-    margin-left: 220px;
+    margin-left: 270px;
     left: 0;
     right: 0;
     
@@ -757,7 +757,7 @@ footer{
   width: 100%;
   overflow: hidden;
   position: static;
-    margin-top: 700px;
+    margin-top: 760px;
 
   
   }
@@ -922,7 +922,7 @@ footer{
       position: relative;
       bottom: 0px;
       width: 100vw;
-      margin-top: 2300px;
+      margin-top: 2500px;
     }
    .main-content{
      margin-left: 20px;
@@ -1003,3 +1003,4 @@ footer{
       margin: 5px 0;
     }
   } 
+  
