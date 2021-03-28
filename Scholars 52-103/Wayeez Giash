@@ -30,7 +30,7 @@
   <div class="wrapper-main">
     <div class="part1">
       <div class="image">
-          <img src=""https://files.socioeconlabs.org/images/People-Photos/WayeezGiash.jpg" alt="Portrait of Wayeez Giash">
+          <img src="https://files.socioeconlabs.org/images/People-Photos/WayeezGiash.jpg" alt="Portrait of Wayeez Giash">
           <div class="contact">
               <p class="cap">contact</p>
               <div class="cont-info">
@@ -102,3 +102,4 @@
   </body>
 
 </html>
+
