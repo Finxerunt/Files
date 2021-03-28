@@ -30,11 +30,11 @@
   <div class="wrapper-main">
     <div class="part1">
       <div class="image">
-          <img src="https://files.socioeconlabs.org/images/People-Photos/WayeezGiash.jpg" alt="Portrait of Wayeez Giash">
+          <img src="https://files.socioeconlabs.org/images/People-Photos/WayeezGiash.jpg" alt="Portrait of Adam Jameel">
           <div class="contact">
               <p class="cap">contact</p>
               <div class="cont-info">
-                  <a class="undl" href="mailto:sudodynasty@gmail.com" target="_blank" rel="noopener noreferrer">sudodynasty@gmail.com<a>
+                  <a class="undl" href="mailto:sudodynasty@gmail.com" target="_blank" rel="noopener noreferrer">sudodynasty@gmail.com</a>
               </div>
 
       </div>
@@ -44,7 +44,8 @@
       <div class="desc">
           <h1 class="name">Wayeez Giash</h1>
           <p class="istyle">Scholar at the International Socioeconomics Laboratory</p>
-          <p> Born in the Bronx, New York, Wayeez Giash quickly developed a fascination for socio-economics at a very young age. Observing the people in his community step up and advocate for positive change had a substantial influence on him while growing up. Although learning to overcome the difficulties of being a second-generation immigrant in America was extremely arduous, this only strengthened his desire to aid in solutions to prevalent issues within his community. However, this feeling only evolved, as he later began to concern himself with global issues rather than local ones. Predominant issues such as racial discrimination, poverty, climate change, gender inequality, and other societal problems motivated him particularly. When he learned about the Finxerunt organization, an organization that lied on the basis of building a sustainable future, he was immensely captivated by their progress. After further research, he found that the film committee completely aligned with his passion for spreading awareness about the societal issues stated previously.</p>
+          <p>Born in the Bronx, New York, Wayeez Giash quickly developed a fascination for socio-economics at a very young age. Observing the people in his community step up and advocate for positive change had a substantial influence on him while growing up. Although learning to overcome the difficulties of being a second-generation immigrant in America was extremely arduous, this only strengthened his desire to aid in solutions to prevalent issues within his community. However, this feeling only evolved, as he later began to concern himself with global issues rather than local ones. Predominant issues such as racial discrimination, poverty, climate change, gender inequality, and other societal problems motivated him particularly. When he learned about the Finxerunt organization, an organization that lied on the basis of building a sustainable future, he was immensely captivated by their progress. After further research, he found that the film committee completely aligned with his passion for spreading awareness about the societal issues stated previously. </p>
+
       </div>
 
 
@@ -102,4 +103,3 @@
   </body>
 
 </html>
-
