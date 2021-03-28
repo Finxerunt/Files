@@ -820,3 +820,11 @@ footer{
 .chapter-wrapper li {
   padding: 4px;
 }
+@media (max-width: 1024px){
+  .chapter-wrapper{
+    margin:auto;
+    padding:0;
+    width:85%
+    
+  }
+}
