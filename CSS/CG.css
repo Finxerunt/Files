@@ -810,7 +810,12 @@ footer{
     font-size: 17px;
     list-style-position: inside;
 }
-
+.chapter-wrapper a{
+    color:#1c4587;
+}
+.chapter-wrapper a:hover{
+color:#2661bf;
+}
 .chapter-wrapper h2 {
     padding-top: 45px;
     font-size: 30px;
