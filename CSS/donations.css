@@ -1,16 +1,106 @@
-/* Header and Footer Style */
+*{
+  margin:0;
+  font-family:"Lora";
+}
+.topofpage{
+  background-image: url(https://files.socioeconlabs.org/images/mountain_image.jpeg);
+min-height: 45vh;
+background-size:cover;
+background-repeat: no-repeat;
+display:flex;
+flex-direction:column;
+justify-content: flex-end;
+}
+.topofpage:after{
+  position: absolute;
+  height: calc(45vh + 7rem);
+  width: 100%;
+  background-color: rgb(28, 69, 135 ,.3);
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+.topofpage h1{
+  z-index: 1;
+  font-weight:500;
+color:white;
+padding-bottom: 4vw;
+padding-right: 4vw;
+padding-left: 4vw;
+}
+.firsttext{
+  width:95%;
+  margin:auto;
+  display:flex;
+  flex-direction:row;
+}
+.firsttext h1{
+  font-weight:500;
+      color: #004766;
+      margin-bottom:2rem;
+      margin-top:2rem;
+}
+.firsttext h1 em{
+  font-weight:700;
+}
+.firsttext p em{
+  font-weight:700;
+}
+.sectionone{
+  line-height: 1.4;
+  font-size:1.25rem;
+  flex-basis:85%;
+}
+.sectiontwo img{
+  width:65%;
+}
+.secondsection{
+  margin:auto;
+  margin-top:2.5rem;
+  padding-bottom:1rem;
+}
+.thirdsection{
+text-align:center;
+width:65%;
+padding-top:5rem;
+margin:auto;
+}
+.thirdsection h1{
+    color: #004766;
+    margin-bottom:2rem;
+}
+.thirdsection p{
+  margin-bottom:4rem;
+  font-size:1.25rem;
+}
+@media screen and (max-width: 1024px){
+  .firsttext{
+    flex-direction:column;
+  }
+  .sectiontwo img{
+    width:90%;
+  }
+  .topofpage h1{
+    font-size:1.5rem;
+  }
+  .thirdsection{
+    width:85%;
+  }
+}
+/*sep*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lora', serif;
   }
-  
+
   body {
     overflow-x: hidden;
 }
 
-.nav-btn ul {
+ul {
     list-style: none;
     color: #1c4587;
 }
@@ -56,7 +146,7 @@ section {
     display: flex;
     position: relative;
     color: #1c4587;
-    
+
 }
 
 .logo-container {
@@ -107,6 +197,7 @@ section {
     margin-left: -2rem;
     max-width: 100%;
     max-height: 100%;
+    margin-top:36px;
 }
 
 /*.nav-link {*/
@@ -269,6 +360,7 @@ section {
 
 /*.nav-link:hover, .nav-link:focus-within > .dropdown,
 .dropdown-link:hover, .dropdown-link:focus-within > .dropdown{
+
   transform: translate(0, 0);
   opacity: 1;
   pointer-events: auto;
@@ -541,14 +633,14 @@ section {
 
     }
 }
-  
+
 footer{
     color: white;
   width: 100%;
   overflow: hidden;
   position: static;
   margin-top: 150px;
-  
+
   }
   .content1{
     position: relative;
@@ -569,9 +661,9 @@ footer{
   footer{
     position: static;
     bottom: 0;
-    
+
     background: #1c4587;
-   
+
   }
   .main-content{
     display: flex;
@@ -590,11 +682,11 @@ footer{
     display: none;
   }
   .social{
-  
+
       display: flex;
       margin-left: 75px;
   }
-  
+
   .social a i{
       font-size: 23px;
       color: white;
@@ -602,19 +694,19 @@ footer{
       transition: 0.2s;
       margin-top: 32px;
   }
-  
-  
+
+
   .left{
     margin-left: 75px;
-   
-   
+
+
   }
   .left h2{
     width: 90px;
    padding-bottom: 10px;
     border-bottom: 2px solid white;
   }
-  
+
   .links{
       color: white;
       font-size: 23px;
@@ -622,7 +714,7 @@ footer{
      transition: 0.2s;
      margin-bottom: 0px;
   }
-  
+
   .social a i:hover{
     color: #7C9DD2;
   }
@@ -656,7 +748,7 @@ footer{
   .left p a:hover{
     text-decoration: none;
   }
-  
+
   .center .content .fas{
     font-size: 1.4375rem;
     background: #1a1a1a;
@@ -689,10 +781,10 @@ footer{
     text-align: center;
   }
   .bottom .btm{
-   
+
     font-size: 1.1rem;
     padding-bottom: 10px;
-  
+
   }
   .bottom .btm span{
     color: white;
@@ -704,8 +796,8 @@ footer{
   .bottom .btm a:hover{
     text-decoration: underline;
   }
-  
-  
+
+
   @media screen and (max-width: 900px) {
     footer{
       position: relative;
@@ -720,35 +812,35 @@ footer{
     }
     .links{
       display: none;
-      
+
     }
     .mobileicons{
       display: flex;
       margin-left: 90px;
     }
-  
+
     .mobileicons a{
       font-size: 23px;
       color: white;
       margin: 15px;
       transition: 0.2s;
       margin-top: 32px;
-      
+
     }
     .mobilelinks{
       display: grid;
-      
+
       padding: 0;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       grid-column-gap: 0px;
       text-align:center;
-     
+
       margin: auto;
     width: 65%;
-     
+
     }
-  
+
     .mobilelinks a{
       color: white;
       font-size: 23px;
@@ -790,46 +882,4 @@ footer{
     .main-content .box{
       margin: 5px 0;
     }
-  } 
-
-
-
-/* Chapter Guide Style */
-.chapter-wrapper {
-    font-family: 'Lora', serif;
-    padding: 40px 30px 30px 30px;
-    margin: auto 100px;
-}
-
-.chapter-wrapper h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.chapter-wrapper p, ul {
-    font-size: 17px;
-    list-style-position: inside;
-}
-.chapter-wrapper a{
-    color:#1c4587;
-}
-.chapter-wrapper a:hover{
-color:#2661bf;
-}
-.chapter-wrapper h2 {
-    padding-top: 45px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.chapter-wrapper li {
-  padding: 4px;
-}
-@media (max-width: 1024px){
-  .chapter-wrapper{
-    margin:auto;
-    padding:0;
-    width:85%
-    
   }
-}
