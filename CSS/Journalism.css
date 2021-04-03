@@ -35,7 +35,7 @@ section {
     position: relative;
 
     width: 100%;
-    background: url('bg.jpg') no-repeat top center / cover;
+    background: url('https://files.socioeconlabs.org/Images/bg-img.png') no-repeat top center / cover;
     overflow: hidden;
 }
 
@@ -831,7 +831,7 @@ main{
 }
 #landing{
 box-shadow: inset 0 0 0 1000px rgba(73, 146, 226,0.85);
-  background-image: url(bg-img.png);
+  background-image: url(https://files.socioeconlabs.org/Images/bg-img.png);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
