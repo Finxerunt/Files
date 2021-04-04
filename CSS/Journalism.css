@@ -715,6 +715,9 @@ footer{
    .main-content{
      margin-left: 20px;
    }
+      .mobileimagewidth{
+      width:90%;
+      }
     .social{
       display: none;
     }
