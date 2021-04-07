@@ -1,0 +1,54 @@
+footer{
+   margin-top: auto;
+   width:100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    
+   
+}
+footer a{
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    margin-left: 270px;
+   align-items: center;
+   overflow: hidden;
+}
+.left{
+    font-size: 15px;
+   
+    
+}
+.left p{
+    font-weight: 700;
+}
+
+.right{
+    margin-left: 80px;
+    width: 15%;
+    height: 75%;
+    margin-bottom: 0px;
+}
+.right img{
+    width: 75%;
+    height: 75%;
+}
+
+@media screen and (max-width: 900px) {
+    .content{
+        margin-left: 0;
+        
+    }
+    .right{
+        width: 75%;
+        margin-left:2;
+    }
+
+    .left{
+        font-size: 95%;
+
+    }
+
+}
