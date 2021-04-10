@@ -1454,12 +1454,18 @@ body{
 }
 
 .width{
-
+display:flex;
+flex-direction:column;
   max-width:1200px;
   margin:auto;
   padding:40px;
   color:#333;
   overflow:hidden;
+}
+.people-row{
+display:flex;
+flex-direction:row;
+justify-content: space-around;
 }
 .class{
   text-align:center;
@@ -1477,9 +1483,9 @@ body{
   padding-bottom:10px;
   margin-bottom:2vmax;
 }
+
 .desu{
-  float:left;
-  width: calc(100%/6);
+  width:120px;
   overflow:hidden;
   padding:40px 0;
   transition:0.4s;
@@ -1506,10 +1512,23 @@ body{
 font-size:1.33rem;;
 }
 @media screen and (max-width:600px){
-  .desu{
-    width:calc(100%/3);
+.person{
+  flex-basis: 25%;
+width:30%;
+}
+.desu img{
+width: 100px;
+height: 100px;
+}
+.left{
+  margin-left:25px;
+}
+  .people-row{
+width:95%;
+margin-right:auto;
+flex-wrap:wrap;
   }
   .width{
-    padding:20px;
+    padding:0;
   }
 }
