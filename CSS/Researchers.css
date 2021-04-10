@@ -1522,10 +1522,10 @@ height: 100px;
 }
 .left{
   margin-left:25px;
+  width:90%;
 }
   .people-row{
-width:95%;
-margin-right:auto;
+
 flex-wrap:wrap;
   }
   .width{
