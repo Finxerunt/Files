@@ -842,10 +842,17 @@ font-size:2.75rem;
 .positive-impact p{
   margin-bottom:2rem;
 }
+.finxvideo{
+  margin-top:1rem;
+  margin-bottom:2rem;
+}
 .faculty{
   width:66%;
   padding-top:15vh;
   margin:auto;
+}
+.addpad{
+  padding-bottom:1rem;
 }
 .faculty .otherimg{
   width:90%;
@@ -898,7 +905,7 @@ justify-content: center;
   color:white;
 }
 .form-text p{
-  width:70%;
+  width:50%;
   margin: 1rem 0;
   font-size:1.25rem;
 }
@@ -936,6 +943,10 @@ color: #004766;
 @media screen and (max-width:823px){
 .form-wrap{
   flex-direction: column;
+}
+.finxvideo{
+  height:50%;
+  width:250px;
 }
 .form-image img{
   width:100%;
@@ -1001,5 +1012,11 @@ color: #004766;
     .positive-impact h1{
       font-size:2rem;
       margin-top:2rem;
+    }
+  }
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .finxvideo{
+      width:100%;
+      height:300px;
     }
   }
