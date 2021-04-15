@@ -99,7 +99,7 @@ list-style-type: none;
     right: 5%;
     top: 50%;
     transform: translate(-5%, -50%);
-    z-index: 2;
+    z-index: 101;
   }
 
   .nav-links {
