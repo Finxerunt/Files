@@ -905,7 +905,7 @@ justify-content: center;
   color:white;
 }
 .form-text p{
-  width:50%;
+  width:100%;
   margin: 1rem 0;
   font-size:1.25rem;
 }
