@@ -108,15 +108,15 @@ position: fixed;
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(150px at 90% -10%);
-    -webkit-clip-path: circle(150px at 90% -10%);
+    clip-path: inset(none);
+    -webkit-clip-path: inset(none);
     transition: all 0.2s ease-out;
     pointer-events: none;
 }
   
   .nav-links.open {
-    clip-path: inset(0,0,0,0);
-    -webkit-clip-path: inset(0,0,0,0);
+    clip-path: inset(90%);
+    -webkit-clip-path: inset(90%);
     pointer-events: all;
     z-index:98;
   }
