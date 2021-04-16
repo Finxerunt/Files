@@ -120,6 +120,7 @@ list-style-type: none;
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
+    margin-bottom: -10px;
     z-index:98;
   }
   .landing {
