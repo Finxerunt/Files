@@ -8,7 +8,6 @@ window.onload=function(){
       link.classList.toggle("fade");
     });
   });
-}
 const navLinks2 = document.querySelector(".dd-links");
 const links2 = document.querySelectorAll(".dd-links li");
 
@@ -19,4 +18,4 @@ document.querySelector(".discover").addEventListener("click", () => {
 
   });
 });
-
+}
