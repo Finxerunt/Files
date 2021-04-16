@@ -9,6 +9,7 @@ window.onload=function(){
     });
   });
 }
+window.onload=function(){
 const navLinks = document.querySelector(".dd-links");
 const links2 = document.querySelectorAll(".dd-links li");
 
@@ -19,3 +20,4 @@ document.querySelector(".discover").addEventListener("click", () => {
 
   });
 });
+}
