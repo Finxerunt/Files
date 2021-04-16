@@ -103,20 +103,22 @@ list-style-type: none;
   }
 
   .nav-links {
-position: fixed;
+    position: fixed;
     background: white;
     height: 100vh;
+    left:0;
     width: 100%;
     flex-direction: column;
-    clip-path: inset(none);
-    -webkit-clip-path: inset(none);
-    transition: all 0.2s ease-out;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 0.7s ease-out;
     pointer-events: none;
+    z-index:100;
 }
   
   .nav-links.open {
-    clip-path: inset(90%);
-    -webkit-clip-path: inset(90%);
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
     z-index:98;
   }
