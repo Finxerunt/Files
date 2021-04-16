@@ -10,11 +10,11 @@ window.onload=function(){
   });
 }
 window.onload=function(){
-const navLinks = document.querySelector(".dd-links");
+const navLinks2 = document.querySelector(".dd-links");
 const links2 = document.querySelectorAll(".dd-links li");
 
 document.querySelector(".discover").addEventListener("click", () => {
-  navLinks.classList.toggle("open");
+  navLinks2.classList.toggle("open");
   links2.forEach(link => {
     link.classList.toggle("active");
 
