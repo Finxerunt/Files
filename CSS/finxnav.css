@@ -113,7 +113,7 @@ list-style-type: none;
     -webkit-clip-path: circle(100px at 90% -10%);
     transition: all 0.7s ease-out;
     pointer-events: none;
-    z-index:100;
+    z-index:-1;
 }
   
   .nav-links.open {
