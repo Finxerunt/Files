@@ -94,7 +94,7 @@ list-style-type: none;
   }
 
   .mobile-icon {
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     right: 5%;
     top: 50%;
@@ -116,6 +116,7 @@ list-style-type: none;
      margin-bottom: -10px;
     transform: translateZ(0);
     z-index:-1;
+    overflow:hidden;
 }
   
   .nav-links.open {
@@ -125,6 +126,7 @@ list-style-type: none;
     margin-bottom: -10px;
     transform: translateZ(0);
     z-index:98;
+    overflow:hidden;
   }
   .landing {
     flex-direction: column;
