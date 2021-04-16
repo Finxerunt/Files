@@ -113,6 +113,8 @@ list-style-type: none;
     -webkit-clip-path: circle(100px at 90% -10%);
     transition: all 0.7s ease-out;
     pointer-events: none;
+     margin-bottom: -10px;
+    transform: translateZ(0);
     z-index:-1;
 }
   
@@ -121,6 +123,7 @@ list-style-type: none;
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
     margin-bottom: -10px;
+    transform: translateZ(0);
     z-index:98;
   }
   .landing {
@@ -155,12 +158,14 @@ list-style-type: none;
     -webkit-clip-path: circle(100px at 90% -10%);
     transition: all 0.7s ease-out;
     pointer-events: none;
+    transform: translateZ(0);
     z-index:100;
   }
   .dd-links.open {
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
+    transform: translateZ(0);
   }
   .dd-links li{
     text-align:center;
