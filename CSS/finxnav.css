@@ -94,7 +94,7 @@ list-style-type: none;
   }
 
   .mobile-icon {
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     right: 5%;
     top: 50%;
