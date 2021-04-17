@@ -120,8 +120,8 @@ list-style-type: none;
 }
   
   .nav-links.open {
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
+    clip-path: circle(1400px at 90% -10%);
+    -webkit-clip-path: circle(1400px at 90% -10%);
     pointer-events: all;
     margin-bottom: -10px;
     transform: translateZ(0);
@@ -173,3 +173,4 @@ list-style-type: none;
     text-align:center;
   }
 }
+
