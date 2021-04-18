@@ -164,8 +164,8 @@ list-style-type: none;
     z-index:100;
   }
   .dd-links.open {
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(300px at 90% -10%);
+    clip-path: circle(600px at 90% -10%);
+    -webkit-clip-path: circle(600px at 90% -10%);
     pointer-events: all;
     transform: translateZ(0);
   }
