@@ -109,8 +109,8 @@ list-style-type: none;
     left:0;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(0px at 90% -10%);
+    -webkit-clip-path: circle(0px at 90% -10%);
     transition: all 0.7s ease-out;
     pointer-events: none;
      margin-bottom: -10px;
@@ -156,8 +156,8 @@ list-style-type: none;
     left:0;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(0px at 90% -10%);
+    -webkit-clip-path: circle(0px at 90% -10%);
     transition: all 0.7s ease-out;
     pointer-events: none;
     transform: translateZ(0);
@@ -165,7 +165,7 @@ list-style-type: none;
   }
   .dd-links.open {
     clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(300px at 90% -10%);
     pointer-events: all;
     transform: translateZ(0);
   }
