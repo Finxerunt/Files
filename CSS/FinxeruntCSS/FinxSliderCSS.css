@@ -7,121 +7,6 @@
 }
 
 
-/*.mobileview{
-  display: none;
-}
-#scrolling-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 100%;
-    align-items: center;
-    padding-right: 20px;
-    scroll-behavior: smooth;
-  }
-  #scrolling-wrapper #left, #right{
-      position: absolute;
-  }
-
-  #left{
-      left: 10px;
-      
-  }
-  #right{
-      right: 10px;
-  }
-  .text{
-      margin: 90px;
-      white-space: nowrap;
-  }
-  .card {
-    flex: 0 0 auto;
-    height: 370px;
-    width: 490px;
-    border-radius: 5px;
-    background-color: #0D506E;
-    margin: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-    
-  }
-  ::-webkit-scrollbar {
-    width: 0;  
-    background: transparent;  
-  }
-.text{
-    font-size: 20px;
-    font-weight: 700;
-}
-
-a{
-    text-decoration: none;
-}
-.pictxt{
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    
-}
-.pictxt span, .pictxt p{
-    color: white;
-}
-.pictxt p{
-    margin-bottom: 5px;
-    text-transform: uppercase;
-}
-
-.pic{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.pic img{
-    width: 100%;
-    height: 100%;
-}
-
-#left, #right{
-    z-index: 1000;
-}
-
-#left button, #right button{
-    padding: 0;
-    border: none;
-    outline: none;
-    font: inherit;
-    color: inherit;
-    background: none;
-    border-radius: 50%;
-    padding: 10px;
-    width: 40px;
-    background-color: #0D506E;
-}
-
-#left button i, #right button i{
-    color: white;
-}
-
-#left button:hover, #right button:hover{
-    cursor: pointer;
-    background-color: white;
-    transition: 0.1s linear;
-   
-}
-
-#left button:hover i, #right button:hover i{
-    color: #0D506E;
-}
-
-@media (max-width:900px){
-    .desktopview{
-      display: none;
-    }
-    .mobileview{
-      display: block;
-    }*/
 
 
 .mobileview{
@@ -183,7 +68,7 @@ a{
   
 }
 .pictxt span, .pictxt p{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .pictxt p{
   margin-bottom: 5px;
