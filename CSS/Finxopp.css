@@ -7,6 +7,9 @@
 body{
 overflow-x:hidden;
 }
+.applyhere{
+color:black;
+}
   .content{
     display: flex;
       margin-left: 270px;
