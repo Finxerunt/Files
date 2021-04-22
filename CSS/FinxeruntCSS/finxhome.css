@@ -93,6 +93,26 @@
     white-space: nowrap;
 }
 
+@media screen and (max-width: 1200px){
+    body,html{
+        overflow-x: hidden;
+    }
+    .header{
+        width: 250px;
+    }
+    .headertxt p{
+        font-size: 19px;
+    }
+    .rw-wrapper{
+        font-size: 10px;
+        margin-top: 65px;
+       
+    }
+    .logocontainer iframe{
+        margin-right: 40px;
+    }
+}
+
 
 @media screen and (max-width: 900px) {
    body,html{
@@ -143,6 +163,9 @@
     .rw-sentence span{
         font-size: 30px;
     }
+    .logocontainer iframe{
+        margin: 0;
+    }
    iframe{
        width: 350px;
         height: 230px;
@@ -186,6 +209,13 @@
 .stitle p{
     font-weight: bolder;
     font-size: 35px;
+}
+
+@media screen and (max-width: 1200px){
+    .stat{
+       margin: 0;
+       margin: 20px;
+    }
 }
 
 @media screen and (max-width: 900px) {
