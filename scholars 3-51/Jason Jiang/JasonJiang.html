@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="The International Socioeconomics Laboratory™ (ISL) is a global research institute made up of young adults that strives to find adequate solutions to current socio-economic problems. We use existing records and data to create our comprehensive models and studies to find the root cause of these problems and the best ways to fix them. Our information collection is not limited to what is already in sight; we also collect information and data through surveys and experiments. The goal of Socioeconlabs is clear; assess and address the issues that face our society and create solutions to them to foster a more significant, better community." name="description">
+  <meta content="Socioeconomic, laboratory, ISL, Finxerunt" name="keywords">
+  <meta content="og:image" content= "https://files.socioeconlabs.org/images/White_Logo.png" />
+
+  <title>Jason Jiang</title>
+
+  <link rel="stylesheet" href="https://files.socioeconlabs.org/CSS/Indiv_Scholar.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" />
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  <link rel="icon" type="image/png" href="https://files.socioeconlabs.org/images/favicon.png"/>
+  
+<main>
+  <div class="wrapper-main">
+    <div class="part1">
+      <div class="image">
+          <img src="https://files.socioeconlabs.org/images/People-Photos/JasonJiang.jpeg" alt="Portrait of Jason Jiang">
+          <div class="contact">
+              <p class="cap">contact</p>
+              <div class="cont-info">
+                  <a class="undl" href="mailto:jasonjiang9142@gmail.com" target="_blank" rel="noopener noreferrer">jasonjiang9142@gmail.com</a>
+              </div>
+
+      </div>
+    </div>
+  </div>
+    <div class="part2">
+      <div class="desc">
+          <h1 class="name">Jason Jiang</h1>
+          <p class="istyle">Scholar at the International Socioeconomics Laboratory</p>
+          <p>Jason Jiang is a socioeconomics researcher at Fixerunt, where he initially helped to publish research about the effects of a public health care facility in an underserved community in Corona, Queens. Jason has been with Finxerunt since the start of 2021 and is actively participating as a researcher with the organization. An aspiring entrepreneur, Jason believes that socioeconomics plays a big role in the gap between the rich and the poor and is actively seeking ways to define that. He joined Finxerunt as a result of his curiosity to find ways to resolve  socioeconomics problems through effort and exposure. He is a strong believer in the idea of change is always finding ways to make a difference. </p>
+
+      </div>
+
+
+</main>
+
+
+<script>
+    var elements = document.querySelectorAll("body > header > div > div.nav-btn > div.nav-links > ul > li > a");
+    elements.forEach((element) => {
+        element.addEventListener("click", dropdownHandler);
+        element.addEventListener("focusout", focusoutHandler);
+    })
+
+    function dropdownHandler(event) {
+        if (event.target == this) {
+
+            let dropdown = event.path[1].getElementsByClassName("dropdown")[0];
+            if (dropdown.style.opacity == 0) {
+
+
+                dropdown.style.height = 'fit-content';
+                dropdown.style.opacity = '1';
+                dropdown.style.transform = "translate(0, 0)";
+                dropdown.style.pointerEvents = "auto";
+
+            } else if (dropdown.style.opacity == 1) {
+
+                dropdown.style.opacity = '0';
+                dropdown.style.pointerEvents = "none";
+                dropdown.style.transform = "translateY(10px)";
+                dropdown.style.transition = ".5s";
+                dropdown.style.height = '0';
+            }
+        }
+    }
+
+    function focusoutHandler(event) {
+        if (event.target == this) {
+            setTimeout(()=>
+            {
+                let dropdown = event.path[1].getElementsByClassName("dropdown")[0];
+
+                dropdown.style.height = '0';
+                dropdown.style.opacity = '0';
+                dropdown.style.pointerEvents = "none";
+                dropdown.style.transform = "translateY(10px)";
+                dropdown.style.transition = ".5s";
+            }, 100)
+        }
+    }
+</script>
+
+
+<footer> <div class="social"> <a href=https://www.instagram.com/socioeconlabs><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href=https://www.linkedin.com/company/international-socioeconomics-laboratory><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href=https://twitter.com/Socioeconlabs><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href=https://www.youtube.com/channel/UC4Ug1BhjcdBDGrwjFgTZg_g><i class="fa fa-youtube-play" aria-hidden="true" style="border-right: 2px solid white;padding-right: 32px;"></i></a> <a href=https://socioeconlabs.org/mission class="links">Mission</a> <a href=https://files.socioeconlabs.org//Files/INTERNATIONAL%20SOCIOECONOMIC%20LABORATORY%20CHAPTER%20STARTER%20GUIDE.pdf class="links">Chapter</a> <a href=https://socioeconlabs.org/Join.html class="links">Opportunities</a> <a href=https://socioeconlabs.org/Publications.html class="links">Publications</a> </div> <div class="mobileicons"> <a href=https://www.instagram.com/socioeconlabs><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href=https://www.linkedin.com/company/international-socioeconomics-laboratory><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href=https://twitter.com/Socioeconlabs><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href=https://www.youtube.com/channel/UC4Ug1BhjcdBDGrwjFgTZg_g><i class="fa fa-youtube-play" aria-hidden="true"></i></a> </div> <div class="mobilelinks"> <a href=https://socioeconlabs.org/mission>Mission</a> <a href=https://files.socioeconlabs.org//Files/INTERNATIONAL%20SOCIOECONOMIC%20LABORATORY%20CHAPTER%20STARTER%20GUIDE.pdf>Chapter</a> <a href=https://socioeconlabs.org/Join.html>Opportunities</a> <a href=https://socioeconlabs.org/Publications.html class="nomargin">Publications</a> </div> <div class="main-content"> <div class="left box"> <h2>Contact</h2> <div class="content"> <p>Requests for additional information and questions/concerns can be sent to <a href="info@socioeconlabs.org">info@socioeconlabs.org</a></p> </div> <h2>Press</h2> <div class="content" style="margin-bottom: 80px;"> <p>For media/press inquiries, please contact Public Relations <a href="pr@socioeconlabs.org">pr@socioeconlabs.org</a></p> </div> </div> <div class="right box"> <a href=Index.html><img src= https://files.socioeconlabs.org//Images/Blue_Logo.jpg></a> <div class="content"> <p>The International Socioeconomics Laboratory™ (ISL) is a global research institute made up of young adults that strives to find adequate solutions to current socio-economic problems. We use existing records and data to create our comprehensive models and studies to find the root cause of these problems and the best ways to fix them.</p> </div> </div> </div> <div class="bottom"> <div class="btm"> <span class="credit"><a href="#">International Socioeconomics Laboratory</a> | </span> <i class="fa fa-copyright" aria-hidden="true"></i><span> 2021 All rights reserved.</span> </div> </div> </footer>
+  </body>
+
+</html>
