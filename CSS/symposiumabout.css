@@ -18,8 +18,7 @@ font-family: 'Lora', serif;
 #logo{
   justify-self:start;
   margin-left:20px;
-  height:40%;
-  width:auto;
+width:50%;
   cursor:pointer;
 }
 .navbar{
