@@ -9,7 +9,7 @@ font-family: 'Lora', serif;
   padding-top:24px;
   padding-bottom:24px;
   width:100%;
-  background-color:#1c4587;
+  background-color:#c1c1c1;
 }
 .left{
   padding-top:3%;
@@ -91,7 +91,7 @@ a.nav-links:hover:before {
   font-size:1rem;
 }
 .part1{
-  background-color:#1c4587;
+  background-color:#c1c1c1;
 }
 .left{
   width:80%;
@@ -163,7 +163,7 @@ padding:25px;
 .footer{
 padding-top:24px;
 padding-bottom:24px;
-  background-color:#1c4587;
+  background-color:#c1c1c1;
 }
 .footer-text{
   text-align:center;
@@ -182,7 +182,7 @@ padding-bottom:24px;
   .nav-menu{
     display:grid;
     grid-template-columns: auto;
-    background:#1c4587;
+    background:#c1c1c1;
     margin:0;
     width:100%;
     position:absolute;
@@ -191,7 +191,7 @@ padding-bottom:24px;
     transition: all 0.5s ease;
   }
   .nav-menu.active{
-    background:#1c4587;
+    background:#c1c1c1;
     left:0;
     opacity:1;
     transition: all 0.5s ease;
@@ -204,7 +204,7 @@ padding-bottom:24px;
   }
 
   .nav-links:hover{
-    background-color:#1c4587;
+    background-color:#c1c1c1;
     color:white;
     transition: all 0.4s ease-out;
   }
@@ -217,14 +217,14 @@ padding-bottom:24px;
   padding:0;
   border-radius:0;
   box-shadow: none;
-  background-color:#1c4587;
+  background-color:#c1c1c1;
 }
 .nav-btn:hover{
   border:none;
 
   border-radius:0;
   box-shadow: none;
-  background-color:#1c4587;
+  background-color:#c1c1c1;
 }
 #mobile-menu{
   position:absolute;
