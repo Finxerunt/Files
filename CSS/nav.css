@@ -1,6 +1,302 @@
 /* globals */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
 
+}
+
+.nav-contain a:hover {
+    text-decoration: underline;
+}
+
+.nav-contain a:visited {
+    text-decoration: none;
+}
+
+.nav-contain {
+    box-sizing: border-box;
+    background: white;
+    width: 100%;
+    padding: 40px 20% 20px 20%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-contain a {
+    text-decoration: none;
+    color: #093552;
+}
+
+.nav-contain ul {
+    list-style: none;
+}
+
+.nav-containA {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+.top {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.right-arb {
+    margin-left: auto;
+    padding: 50px 0;
+}
+
+.right li {
+    display: inline-block;
+}
+
+.left{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-contain1 {
+    padding-top: 10px;
+}
+
+.bottom button {
+    float: left;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font: inherit;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.bottom a {
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+
+.bottom i {
+    margin-left: 7px;
+}
+
+.dropdown-content {
+    margin: 0px;
+    padding: 10px 20%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    list-style: none;
+    font-size: 20px;
+    background-color:#093552;
+    display: none;
+    animation-name: down;
+    animation-duration: 0.3s;
+}
+
+@keyframes down {
+    from {opacity: 0; transform: translateY(-50%)}
+    to {opacity: 1;}
+}
+
+.dropdown-content a {
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+
+.amargin {
+    margin-right: 20%;
+    text-align: center;
+}
+
+.dropdown-content:hover {
+    background-color: none;
+}
+
+.bottom a:hover, .dropdown:hover .dropbtn {
+    background-color: #093552;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 1420px) {
+    .nav-containA {
+        flex-direction: column;
+    }
+    .left {
+        order: 2;
+    }
+    .right-arb {
+        order: 1;
+        padding: 0px;
+    }
+}
+
+
+.nav-contain1{
+    margin-bottom: 90px;
+}
+
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+    margin-bottom: 70px;
+   margin-left: auto;
+   margin-right: auto;
+   overflow-x: hidden;
+  }
+  .footer {
+    flex-shrink: 0;
+    overflow-x: hidden;
+  }
+
+  .tp, .btm{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+
+      gap: 600px;
+
+  }
+  .tp{
+
+      background-color: white;
+      color: #234283;
+      font-size: 1.2em;
+      padding: 50px;
+  }
+  .btm{
+    background-color: #152b5a;
+    color: white;
+      padding: 30px;
+
+  }
+  .topleft{
+     width: 550px;
+
+  }
+
+  .topright a{
+      font-weight: bold;
+      color: #234283;
+      text-decoration: none;
+      white-space: nowrap;
+  }
+
+  .topright p{
+      padding: 5px;
+  }
+
+  .topright a p:hover{
+      text-decoration: underline;
+      color: #75a5d6;
+  }
+
+  .btmright{
+      display: flex;
+      place-content: center;
+  }
+
+  .btmright a{
+        text-decoration: none;
+
+
+  }
+  .btmright a p{
+    font-size: 1.2em;
+    padding: 20px;
+    color: #ffffff;
+
+  }
+
+  .btmright a p:hover{
+      text-decoration: underline;
+      color: #75a5d6;
+
+  }
+
+
+
+  .btmleft{
+      width: 100%;
+      height: 100%;
+  }
+
+  .btmleft img{
+      width: 100%;
+      height: 100%;
+  }
+
+  @media (max-width: 1300px){
+      .btm{
+          gap: 300px;
+      }
+      .topleft p{
+          width: 300px;
+      }
+
+  }
+
+  @media (max-width:900px){
+      .tp, .btm{
+          gap: 0;
+          flex-direction: column;
+      }
+
+
+      .topleft{
+          width: 100%;
+          padding:0;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+      }
+      .topleft p{
+        margin: 20px;
+        width: 100%;
+      }
+      .btmright{
+          flex-wrap: wrap;
+      }
+
+
+      @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+        .topleft{
+            width: 50%;
+        }
+}
+  }
+
+
+/*NAVBAR*/
 * {
   margin: 0;
   padding: 0;
