@@ -1,0 +1,163 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Noto Serif SC', serif;
+}
+::selection{
+    color: #2B669F;
+    background: #E9F0F7;
+}
+.contain{
+  padding-top:2.5rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fifty{
+  width:50%;
+}
+.main{
+  width:65%;
+  margin:auto;
+}
+.r{
+  padding-right:7.5rem;
+}
+.title{
+  font-weight:500;
+  font-size:3.3rem;
+      border-bottom: 1px solid #CFCFCE;
+}
+.unList{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+.o25{
+  font-size:1.25rem;
+}
+.medTitle{
+  font-weight:500;
+  font-size:2rem;
+}
+.unList li{
+  padding-bottom:0.4rem;
+}
+.unList li a{
+  text-decoration: none;
+  color:black;
+}
+.sLink{
+  color:black;
+  text-decoration:none;
+  position:relative;
+}
+.sLink::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sLink:hover::before{
+  visibility: visible;
+  width: 100%;
+}
+.box{
+  width:70%;
+  margin:auto;
+    margin-top:4.5rem;
+  border:1px solid #CFCFCE;
+}
+.sect{
+  display:flex;
+  flex-direction:row;
+  border-bottom:1px solid #CFCFCE;
+}
+.r{
+    margin-left:25%;
+}
+.otp{
+  font-weight:bold;
+}
+.title2{
+  font-size:2.75rem;
+  padding:1rem 2rem;
+}
+@media (max-width:960px){
+  .sect{
+    flex-direction:column;
+  }
+  .contain{
+    flex-direction:column;
+  }
+  .medTitle{
+    font-size:1.65rem;
+  }
+  .fifty{
+    width:100%;
+  }
+  .r{
+    padding:0;
+    margin:0;
+  }
+  .box{
+    width:100%;
+    border-left:none;
+    border-right:none;
+    margin-top:2rem;
+  }
+  .title2{
+    text-align:center;
+  }
+  .mobilespace{
+    width:85%;
+    margin:auto;
+    padding-bottom:1rem;
+  }
+  .title{
+    font-size:2rem;
+    padding-bottom:0.2rem;
+  }
+  .main{
+    width:75%;
+  }
+  .o25{
+    font-size:1rem;
+  }
+}
+@media (max-width:1720px){
+  .title{
+    font-size:2.75rem;
+  }
+}
+@media (max-width:1430px){
+  .main{
+    width:75%;
+  }
+}
+@media(max-width:1245px){
+  .box{
+    width:85%;
+  }
+  .main{
+    width:85%;
+  }
+}
+@media(max-width:1110px){
+  .title{
+    font-size:2.5rem;
+  }
+  .o25{
+    font-size:1rem;
+  }
+}
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  .box{
+    width:85%;
+  }
+}
