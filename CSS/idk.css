@@ -83,6 +83,7 @@ body{
 }
 .otp{
   font-weight:bold;
+  padding:0 2rem;
 }
 .title2{
   font-size:2.75rem;
@@ -101,10 +102,7 @@ body{
   .fifty{
     width:100%;
   }
-  .r{
-    padding:0;
-    margin:0;
-  }
+
   .box{
     width:100%;
     border-left:none;
