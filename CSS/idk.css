@@ -3,10 +3,6 @@ body{
   padding:0;
   font-family: 'Noto Serif SC', serif;
 }
-::selection{
-    color: #2B669F;
-    background: #E9F0F7;
-}
 .contain{
   padding-top:2.5rem;
   display:flex;
