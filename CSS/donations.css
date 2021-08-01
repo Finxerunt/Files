@@ -124,13 +124,7 @@ header {
     color: #1c4587;
 }
 
-section {
-    position: relative;
-    height: calc(100vh - 3rem);
-    width: 100%;
-    background: url('bg.jpg') no-repeat top center / cover;
-    overflow: hidden;
-}
+
 
 .overlay {
     position: absolute;
