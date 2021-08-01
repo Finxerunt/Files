@@ -1,6 +1,8 @@
 *{
   margin:0;
-  font-family:"Lora";
+}
+main, main p, main h1, main h2, main a{
+    font-family: 'Noto Serif SC', serif;
 }
 .topofpage{
   background-image: url(https://files.socioeconlabs.org/images/mountain_image.jpeg);
