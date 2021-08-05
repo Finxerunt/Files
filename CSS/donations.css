@@ -18,7 +18,6 @@ justify-content: flex-end;
   height: calc(45vh + 4rem);
   width: 100%;
   background-color: rgb(28, 69, 135 ,.3);
-  top: 0;
   left: 0;
   display: block;
   content: "";
