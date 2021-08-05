@@ -15,7 +15,7 @@ justify-content: flex-end;
 }
 .topofpage:after{
   position: absolute;
-  height: calc(45vh + 7rem);
+  height: calc(45vh + 4rem);
   width: 100%;
   background-color: rgb(28, 69, 135 ,.3);
   top: 0;
@@ -112,7 +112,7 @@ a {
 }
 
 header {
-    height: 7rem;
+    height: 4rem;
     position: sticky;
     top: 0px;
     background-color: white;
