@@ -1,0 +1,40 @@
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Noto Serif SC', serif;
+}
+.title{
+  text-align:center;
+}
+.desc{
+  font-size:1.25rem;
+}
+.main{
+  display:flex;
+  flex-direction:row;
+  width:95%;
+
+  margin:auto;
+  justify-content:space-between;
+}
+.segment{
+width:45%;
+}
+.top{
+  margin:auto;
+  width:85%;
+}
+.description{
+  margin:auto;
+  width:95%;
+}
+@media(max-width:1024px){
+  .main{
+    flex-direction:column;
+  }
+  .segment{
+    width:100%;
+  }
+}
